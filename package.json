@@ -1,0 +1,9 @@
+{
+  "name": "pico8-map-render",
+  "version": "1.0.0",
+  "description": "Render a PICO-8 cart's map layer, including maps taller than 32 tiles, to a PNG.",
+  "type": "module",
+  "bin": { "pico8-map-render": "./render.mjs" },
+  "scripts": { "test": "node test.mjs" },
+  "private": true
+}
